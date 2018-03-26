@@ -90,7 +90,7 @@ fvaType = 1;
 % To tourn off the autorun to be able to manually execute each part of the pipeline.
 autorun=0; 
 
-[init,modPath,toolboxPath,resPath,dietFilePath,abunFilePath,objre,figForm,solver,numWorkers,autoFix,compMod,patStat,rDiet,extSolve,fvaType,autorun]= initMgPipe(modPath, toolboxPath, resPath, dietFilePath, abunFilePath, objre, figForm, solver, numWorkers, autoFix, compMod, patStat, rDiet,extSolve,fvaType,autorun);
+[init,modPath,toolboxPath,resPath,dietFilePath,abunFilePath,objre,figForm,numWorkers,autoFix,compMod,patStat,rDiet,extSolve,fvaType,autorun]= initMgPipe(modPath, toolboxPath, resPath, dietFilePath, abunFilePath, objre, figForm, numWorkers, autoFix, compMod, patStat, rDiet,extSolve,fvaType,autorun);
 
 %% PIPELINE: [PART 1]
 % The number of organisms, their names, the number of samples and their identifiers 
